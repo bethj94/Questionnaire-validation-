@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Redirect</title>
+</head>
+<<script>
+    // Array containing the URLs of your surveys
+    var surveyUrls = [
+        "https://app.onlinesurveys.jisc.ac.uk/s/leedsbeckett/questionnaire-validation"
+        "https://app.onlinesurveys.jisc.ac.uk/s/leedsbeckett/questionnaire-validation-b"
+    ];
+
+    // Function to randomly choose a survey URL and redirect to it
+    function redirectToSurvey() {
+        var randomIndex = Math.floor(Math.random() * surveyUrls.length);
+        window.location.href = surveyUrls[randomIndex];
+    }
+
+    // Automatically redirect when the page loads
+    window.onload = function() {
+        redirectToSurvey();
+    };
+</script>
+>
+    <!-- Redirect script will go here -->
+<<script>
+    // Array containing the URLs of your surveys
+    var surveyUrls = [
+        "https://app.onlinesurveys.jisc.ac.uk/s/leedsbeckett/questionnaire-validation",
+        "https://app.onlinesurveys.jisc.ac.uk/s/leedsbeckett/questionnaire-validation-b"
+    ];
+
+    // Function to randomly choose a survey URL and redirect to it
+    function redirectToSurvey() {
+        var randomIndex = Math.floor(Math.random() * surveyUrls.length);
+        window.location.href = surveyUrls[randomIndex];
+    }
+
+    // Automatically redirect when the page loads
+    window.onload = function() {
+        redirectToSurvey();
+    };
+</script>
+>
+</html>
